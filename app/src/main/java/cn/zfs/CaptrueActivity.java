@@ -1,4 +1,4 @@
-package com.zfs;
+package cn.zfs;
 
 import android.app.Activity;
 import android.content.Context;
@@ -84,8 +84,8 @@ public class CaptrueActivity extends AppCompatActivity {
         }
 
         @Override
-        protected void onCamerainitFaile() {
-            Toast.makeText(CaptrueActivity.this, "摄像头打开失败", Toast.LENGTH_SHORT).show();
+        protected void onCamerainitFaile(String msg) {
+            Toast.makeText(CaptrueActivity.this, msg, Toast.LENGTH_SHORT).show();
             finish();
         }
     }

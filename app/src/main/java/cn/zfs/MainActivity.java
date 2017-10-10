@@ -1,4 +1,4 @@
-package com.zfs;
+package cn.zfs;
 
 import android.content.Context;
 import android.content.CursorLoader;
